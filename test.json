@@ -1,0 +1,30 @@
+{
+"name": "Sample JSON",
+"version": 1,
+"active": true,
+"users": [
+{
+"id": 1001,
+"username": "alice",
+"roles": ["admin", "user"]
+},
+{
+"id": 1002,
+"username": "bob",
+"roles": ["user"]
+}
+],
+"settings": {
+"theme": "dark",
+"notifications": {
+"email": true,
+"sms": false
+}
+},
+"items": [
+"item1",
+"item2",
+null,
+42
+]
+}

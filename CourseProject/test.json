@@ -1,0 +1,32 @@
+{
+  "name":"Sample JSON", 
+  "version":1, 
+  "active":true, 
+  "users":[
+    {
+      "id":1001, 
+      "username":"alice", 
+      "roles":[
+        "admin",         "user"]
+
+    },     {
+      "id":1002, 
+      "username":"bob", 
+      "roles":[
+        "user"]
+, 
+      "gutt":"4"
+    }]
+, 
+  "settings":{
+    "notifications":{
+      "email":true, 
+      "sms":false
+    }, 
+    "theme":"light", 
+    "language":"en-Us"
+  }, 
+  "items":[
+    "item2",     42,     "item1"]
+
+}
